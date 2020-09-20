@@ -1,0 +1,52 @@
+.message {
+    background-color: greenyellow;
+    width: 250px;
+    text-align: -moz-right;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 50px 0px 10px 20px;
+}
+
+.wrapper {
+   display: flex;
+    justify-content: flex-start;
+
+}
+.triangle {
+    border-top: 20px solid transparent;
+    border-right: 20px solid greenyellow;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: 80px;
+}
+
+.radius {
+    height: 40px;
+    width: 20px;
+    margin-top: 60px;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background-color: white;
+    margin-right: -20px;
+    z-index: 1
+}
+
+.time {
+    float: right;
+    margin-right: 15px;
+}
+
+.name {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.textMessage {
+    margin-left: 20px;
+}
