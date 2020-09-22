@@ -1,0 +1,13 @@
+.wrapper {
+    margin: 5px 0px 5px 25px ;
+}
+.name {
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: large;
+}
+.priority {
+    margin-left: 10px;
+    font-style: oblique;
+    margin-right: 15px;
+}
