@@ -37,7 +37,7 @@ function HW1() {
                 time={alternativeMessageData.time}
             />
             <hr/>
-            для личного творчества, могу проверить
+
             <AlternativeMessage/>
             <hr/>
         </div>
