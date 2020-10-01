@@ -2,12 +2,15 @@ import React, {useState} from "react";
 import Affairs from "./Affairs";
 
 // types
-export type AffairPriorityType = any; // need to fix any
+export type AffairPriorityType = any; // я не смог понять, что это за тип,
+                                      // где я его могу применить???
+                                      // догадывась, что он применяется в след.
+                                      // месте)
 export type AffairType = {
     _id: number,
     name: string,
-    priority: string
-};
+    priority: string                  // и тут у меня вопрос, почему этот непонятный для меня
+};                                    // тип указывается тут???
 export type FilterType = "all" |"low"|"high"|"middle"| AffairPriorityType;
 
 // constants
@@ -20,8 +23,8 @@ const defaultAffairs: Array<AffairType> = [
 ];
 
 // pure helper functions
-export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => {
-    // need to fix any
+export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): any => { // я не смог додумать
+    // need to fix any                                                                  // типизацию здесь
     if (filter === "all") return affairs;
     if (filter === "low") {
         return affairs.filter(a => a.priority === "low")
